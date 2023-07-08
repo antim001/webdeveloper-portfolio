@@ -10,6 +10,9 @@ nav{
 }
 .header{
     background-color:  #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+  background-position: bottom right;
 }
 nav >ul{
     display: flex;
@@ -43,10 +46,38 @@ color: #ffffff;
 padding: 15px 35px;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 0px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .banner-pic{
     width: 500px;
+   
+   
+}
+.banner-title{
+    margin-top: 5px;
+    font-size: 85px;
+}
+.banner-greeting{
+    font-size: 45px;
+font-style: normal;
+font-weight: 600;
+color: #474747;
+margin-bottom: 0;
+}
+.des{
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin-top: 20px;
+display: flex;
+width: 585px;
+flex-direction: column;
+flex-shrink: 0;
+
+}
+.banner-content{
+    max-width: 500px;
 }
